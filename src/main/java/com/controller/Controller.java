@@ -70,4 +70,10 @@ public class Controller
 	{
 		return es.get2ndMax();
 	}
+	
+	@GetMapping("/get2ndmin")
+	public EmployeeEntity get2ndmax()
+	{
+		return es.get2ndMax();
+	}
 }
